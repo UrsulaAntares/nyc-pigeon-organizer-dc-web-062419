@@ -7,7 +7,9 @@ def nyc_pigeon_organizer(data)
   data.each do |attribute, data|
       data.each do |specific, name_set|
         name_set.each do |name|
-          whos_who << name
+          if whos_who.include?(name)
+            whos_who << name
+          end  
         end
     binding.pry
     end
