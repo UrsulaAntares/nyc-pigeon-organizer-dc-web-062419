@@ -12,12 +12,12 @@ def nyc_pigeon_organizer(data)
             pigeon_list[name] = {}
             pigeon_list[name][attribute] = []
             pigeon_list[name][attribute] << specific.to_s
-       binding.pry
+  #     binding.pry
   #        end  
         end
-    binding.pry
+ #   binding.pry
     end
   end
-  whos_who
-  binding.pry
+  pigeon_list
+#  binding.pry
 end
