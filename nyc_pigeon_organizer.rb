@@ -42,17 +42,3 @@ end
 
 
 
-
-#attributes.each do |attribute| pigeon_list["Theo"][attribute] = []
-
-#        name_set.each do |name|
- #         attributes.each do |attribute|
-#          end
- #         pigeon_list[name][attribute] = []
-  #      end
- ##   binding.pry
-
-
-
-  #          pigeon_list[name][attribute] = []
-  #          pigeon_list[name][attribute] << specific.to_s
