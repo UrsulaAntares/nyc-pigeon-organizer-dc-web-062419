@@ -23,6 +23,15 @@ def nyc_pigeon_organizer(data)
       pigeon_list[who][attribute] = []
     end
   end    
+  data.each do |attribute, data_sub|
+      data_sub.each do |specific, name_set|
+        name_set.each do |name|
+          pigeon_list[name][attribute] << specific.to_s
+        end
+      end
+  end
+  
+  
   
   pigeon_list
   binding.pry
