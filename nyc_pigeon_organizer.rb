@@ -8,12 +8,10 @@ def nyc_pigeon_organizer(data)
   data.each do |attribute, data_sub|
       data_sub.each do |specific, name_set|
         name_set.each do |name|
-  #        if whos_who.include?(name) != true
             whos_who << name
             pigeon_list[name] = {}
-  #          pigeon_list[name][attribute] = []
-  #          pigeon_list[name][attribute] << specific.to_s
-  #     binding.pry
+
+
   #        end  
           if attributes.include?(attribute) != true
             attributes << attribute 
@@ -29,3 +27,13 @@ def nyc_pigeon_organizer(data)
   pigeon_list
 #  binding.pry
 end
+
+
+
+
+
+
+
+
+  #          pigeon_list[name][attribute] = []
+  #          pigeon_list[name][attribute] << specific.to_s
