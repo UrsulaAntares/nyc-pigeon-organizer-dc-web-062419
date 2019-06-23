@@ -5,8 +5,10 @@ def nyc_pigeon_organizer(data)
   pigeon_list = {}
   whos_who = []
   data.each do |attribute, data|
-      data.each do |specific, name|
-      whos_who << name
+      data.each do |specific, name_set|
+        name_set.each do |name|
+          whos_who << name
+        end
     binding.pry
     end
   end
