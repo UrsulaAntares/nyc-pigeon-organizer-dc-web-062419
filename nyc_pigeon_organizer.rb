@@ -9,8 +9,8 @@ def nyc_pigeon_organizer(data)
         name_set.each do |name|
           if whos_who.include?(name) != true
             whos_who << name
-            pigeon_list[name][attribute] = []
-            pigeon_list[name][attribute] << specific
+       #     pigeon_list[name][attribute] = []
+       #     pigeon_list[name][attribute] << specific
           end  
         end
     binding.pry
