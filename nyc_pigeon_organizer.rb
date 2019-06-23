@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
             whos_who << name
             pigeon_list[name] = {}
             pigeon_list[name][attribute] = []
-            pigeon_list[name][attribute] << specific
+            pigeon_list[name][attribute] << specific.to_s
        binding.pry
           end  
         end
