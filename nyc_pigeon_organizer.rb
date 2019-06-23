@@ -19,7 +19,7 @@ def nyc_pigeon_organizer(data)
   end
   whos_who.each do |who|
     pigeon_list[who] = {}
-      attributes.each do |attribute| 
+    attributes.each do |attribute| 
       pigeon_list["Theo"][attribute] = []
     end
   end    
