@@ -32,12 +32,12 @@ end
 
 
 
-        name_set.each do |name|
-          attributes.each do |attribute|
-          end
+#        name_set.each do |name|
+ #         attributes.each do |attribute|
+#          end
  #         pigeon_list[name][attribute] = []
-        end
- #   binding.pry
+  #      end
+ ##   binding.pry
 
 
 
