@@ -4,8 +4,9 @@ require 'pry'
 def nyc_pigeon_organizer(data)
   pigeon_list = {}
   whos_who = []
-  data.each do |attribute, name_set|
-    whos_who << name_set
+  data.each do |attribute, data|
+    data.each do |specific, name|
+    whos_who << name
   binding.pry
   end
   binding.pry
