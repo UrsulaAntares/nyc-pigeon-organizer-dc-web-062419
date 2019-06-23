@@ -18,6 +18,7 @@ def nyc_pigeon_organizer(data)
           if attributes.include?(attribute) != true
             attributes << attribute 
           end
+      
         end
         name_set.each do |name|
  #         pigeon_list[name][attribute] = []
