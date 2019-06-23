@@ -4,8 +4,8 @@ require 'pry'
 def nyc_pigeon_organizer(data)
   pigeon_list = {}
   whos_who = []
-  data.each do |attribute, data|
-      data.each do |specific, name_set|
+  data.each do |attribute, data_sub|
+      data_sub.each do |specific, name_set|
         name_set.each do |name|
   #        if whos_who.include?(name) != true
             whos_who << name
@@ -19,5 +19,5 @@ def nyc_pigeon_organizer(data)
     end
   end
   pigeon_list
-#  binding.pry
+  binding.pry
 end
