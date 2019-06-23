@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
             whos_who << name
           end  
         end
-    binding.pry
+#    binding.pry
     end
   end
   binding.pry
