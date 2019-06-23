@@ -34,7 +34,7 @@ end
 
 
 
-attributes.each do |attribute| pigeon_list["Theo"][attribute] = []
+#attributes.each do |attribute| pigeon_list["Theo"][attribute] = []
 
 #        name_set.each do |name|
  #         attributes.each do |attribute|
