@@ -10,6 +10,7 @@ def nyc_pigeon_organizer(data)
           if whos_who.include?(name) != true
             whos_who << name
             pigeon_list[name][attribute] = []
+            pigeon_list[name][attribute] << specific
           end  
         end
 #    binding.pry
