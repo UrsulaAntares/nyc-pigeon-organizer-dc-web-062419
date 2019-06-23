@@ -2,5 +2,5 @@ require 'pry'
 
 
 def nyc_pigeon_organizer(data)
-  pinding.pry
+  binding.pry
 end
